@@ -8,7 +8,7 @@
 let data = [];
 let species = [];  
 
-let colors = ["pink", "yellow", "lightblue"];  
+let colors = ["pink", "red", "lightblue"];  
 
 let colorsScale;
 
@@ -49,7 +49,7 @@ function draw() {
     let col = colorsScale(data[i].species);
 
     noStroke();
-    fill(col); 
+    fill(col);
 
    ellipse(x, 400, 10, 10);
   
